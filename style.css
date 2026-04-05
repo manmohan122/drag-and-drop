@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.task-card{
+    width: 30%;
+    height: 80vh;
+   background-color: #f0f0f0;
+   border: 2px solid darkgray;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: flex-start;
+   
+    
+    
+    h1{
+      background-color: black;
+      color: tomato;
+      width: 100%;
+      text-align: center;
+    }
+}
+#parent-task-card{
+   width: 96%;
+  height: 50px;
+  margin: 5px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background: #FCECCE;
+  border: 2px solid green;
+}
+
+#task{
+ 
+  font-size: 23px;
+ 
+  color: tomato;
+}
+  
